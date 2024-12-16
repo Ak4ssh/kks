@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect to Telegram</title>
+    <title>Video and Text Display</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
         }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #0088cc;
-            color: white;
-            border: none;
-            border-radius: 5px;
+        video {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
         }
-        button:hover {
-            background-color: #007bb5;
+        p {
+            font-size: 20px;
+            color: #333;
+            margin-top: 20px;
+        }
+        a {
+            color: #0088cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #007bb5;
         }
     </style>
 </head>
 <body>
-
-    <h1>Click the Button to Visit Telegram</h1>
-    <a href="https://t.me/yourusername" target="_blank">
-        <button>Go to Telegram</button>
-    </a>
+    <video controls>
+        <source src="https://envs.sh/kJ3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>아이스는 역시 이상도. 텔디 <a href="https://t.me/sangdo892" target="_blank">t.me/sangdo892</a></p>
 
 </body>
 </html>
