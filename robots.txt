@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://필로폰팔아요.com/sitemap.xml
